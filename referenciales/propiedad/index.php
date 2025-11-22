@@ -8,11 +8,11 @@
     </html>  
     <?php
     if(!empty($_POST["agregar"])){
-        $codigo=$_POST["codigo"];
+        
         $precio=$_POST["precio"];
         $direccion=$_POST["direccion"];
-        $consulta="INSERT INTO propiedad(pro_codigo, pro_precio, pro_direccion)
-        VALUES('$codigo','$precio','$direccion')";
+        $consulta="INSERT INTO propiedad pro_precio, pro_direccion)
+        VALUES('$precio','$direccion')";
         mysqli_query($conexion,$consulta);
 
     }
@@ -36,6 +36,14 @@
         $query="SELECT * FROM propiedad WHERE pro_codigo=$codigo";
     } else {
         $query="SELECT * FROM propiedad";
+    }
+
+    // Leer "codigo" de forma segura (GET preferido, fallback a REQUEST)
+    // devuelve int o 0 si no viene
+    $codigo = filter_input(INPUT_GET, 'codigo', FILTER_VALIDATE_INT);
+    if ($codigo === false || $codigo === null) {
+        // intentar Request (GET o POST)
+        $codigo = isset($_REQUEST['codigo']) ? intval($_REQUEST['codigo']) : 0;
     }
 
     echo "<H1>Referencial de Propiedad</H1>";
@@ -91,3 +99,4 @@
 
       echo "</td></tr>"; 
 	}
+    ?>

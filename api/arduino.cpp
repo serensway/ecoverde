@@ -4,8 +4,8 @@
 #include <Adafruit_SSD1306.h>
 
 // CONFIGURAR
-const char* ssid     = "viernes"; //Nombre del wifi
-const char* password = "vierens2025*123"; //Contraseña del wifi
+const char* ssid     = "Gamarra Ojeda"; //Nombre del wifi
+const char* password = "08192224"; //Contraseña del wifi
 // Ajustá la IP/host al servidor donde colocaste ventas.php
 const char* serverUrl = "https://promo025.com/angeles/api/ventas.php?tipo=venta";
 
