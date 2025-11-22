@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar tipo de acceso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #632b2bff 50%, #24243e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .card {
+            background: rgba(41, 12, 12, 0.5);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+            padding: 3rem;
+            width: 90%;
+            max-width: 500px;
+            transition: transform 0.3s ease;
+        }
+        
+        .option-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .option-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #ff6600ff;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 102, 0, 0.3);
+        }
+        
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .title-gradient {
+            background: linear-gradient(90deg, #ff6600ff, #ffae00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-2">Eco Verde <span class="title-gradient">YvyPorã</span></h1>
+            <p class="text-white opacity-80">Selecciona tu tipo de acceso</p>
+        </div>
+        
+        <div class="space-y-4">
+            <!-- Opción Cliente -->
+            <a href="login_cliente.php" class="option-btn block text-center text-white hover:text-white">
+                <div class="icon">👤</div>
+                <h3 class="text-2xl font-semibold mb-2">Soy Cliente</h3>
+                <p class="text-sm opacity-80">Accede para ver tus propiedades y transacciones</p>
+            </a>
+            
+            <!-- Opción Empleado -->
+            <a href="login_ofi.php" class="option-btn block text-center text-white hover:text-white">
+                <div class="icon">💼</div>
+                <h3 class="text-2xl font-semibold mb-2">Soy Empleado</h3>
+                <p class="text-sm opacity-80">Accede al panel de administración</p>
+            </a>
+        </div>
+        
+        <div class="text-center mt-6">
+            <a href="index.html" class="text-white opacity-70 hover:opacity-100 transition text-sm">
+                ← Volver a la página principal
+            </a>
+        </div>
+    </div>
+</body>
+</html>

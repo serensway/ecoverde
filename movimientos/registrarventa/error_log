@@ -1,0 +1,24 @@
+[19-Nov-2025 21:14:48 UTC] PHP Parse error:  syntax error, unexpected 'Elisa' (T_STRING) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 19
+[19-Nov-2025 21:15:48 UTC] PHP Parse error:  syntax error, unexpected 'Elisa' (T_STRING) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 19
+[19-Nov-2025 21:15:52 UTC] PHP Parse error:  syntax error, unexpected 'Elisa' (T_STRING) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 19
+[19-Nov-2025 21:17:22 UTC] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 20
+[19-Nov-2025 21:17:40 UTC] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 20
+[19-Nov-2025 21:17:56 UTC] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 20
+[19-Nov-2025 21:17:57 UTC] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 20
+[19-Nov-2025 21:17:59 UTC] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 20
+[19-Nov-2025 18:24:24 America/Asuncion] PHP Warning:  mysqli_query(): Empty query in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 86
+[19-Nov-2025 18:24:24 America/Asuncion] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 87
+[19-Nov-2025 18:25:36 America/Asuncion] PHP Warning:  mysqli_query(): Empty query in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 78
+[19-Nov-2025 18:25:36 America/Asuncion] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 79
+[19-Nov-2025 19:16:41 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 18
+[19-Nov-2025 19:21:48 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 89
+[19-Nov-2025 19:21:48 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:21:52 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 89
+[19-Nov-2025 19:21:52 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:21:59 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:22:11 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:22:16 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:23:34 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:23:37 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 89
+[19-Nov-2025 19:23:37 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96
+[19-Nov-2025 19:23:42 America/Asuncion] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/movimientos/registrarventa/index.php on line 96

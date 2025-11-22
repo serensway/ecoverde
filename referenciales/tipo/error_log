@@ -1,0 +1,2 @@
+[12-Nov-2025 15:19:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/referenciales/tipo/modificar.php on line 15
+[12-Nov-2025 15:21:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/promo02/public_html/angeles/referenciales/tipo/modificar.php on line 15

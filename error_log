@@ -1,0 +1,60 @@
+[18-Nov-2025 08:48:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/promo02/public_html/angeles/registro_cliente.php:255
+Stack trace:
+#0 {main}
+  thrown in /home/promo02/public_html/angeles/registro_cliente.php on line 255
+[18-Nov-2025 08:49:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/promo02/public_html/angeles/login_cliente.php:198
+Stack trace:
+#0 {main}
+  thrown in /home/promo02/public_html/angeles/login_cliente.php on line 198
+[18-Nov-2025 08:49:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/promo02/public_html/angeles/login_cliente.php:198
+Stack trace:
+#0 {main}
+  thrown in /home/promo02/public_html/angeles/login_cliente.php on line 198
+[18-Nov-2025 08:50:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/promo02/public_html/angeles/registro_cliente.php:255
+Stack trace:
+#0 {main}
+  thrown in /home/promo02/public_html/angeles/registro_cliente.php on line 255
+[18-Nov-2025 09:08:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:08:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:08:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 09:08:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:08:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:08:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 09:08:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:08:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:08:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 09:09:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:09:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:09:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 09:10:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:10:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:10:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 09:11:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:11:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:11:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 09:11:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/promo02/public_html/angeles/login_cliente.php on line 207
+[18-Nov-2025 09:11:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/login_cliente.php:1) in /home/promo02/public_html/angeles/login_cliente.php on line 214
+[18-Nov-2025 09:11:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 09:11:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 09:11:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:05:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 11:05:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 11:05:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:34:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 11:34:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 11:34:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:35:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 11:35:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 11:35:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:35:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 11:35:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 11:35:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:43:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 11:43:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 11:43:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:44:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 12
+[18-Nov-2025 11:44:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 15
+[18-Nov-2025 11:44:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 26
+[18-Nov-2025 11:45:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/procesar.php on line 11
+[18-Nov-2025 11:45:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/procesar.php on line 14
+[18-Nov-2025 11:45:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/promo02/public_html/angeles/conexion.php:10) in /home/promo02/public_html/angeles/procesar.php on line 25

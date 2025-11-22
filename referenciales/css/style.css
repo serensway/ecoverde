@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+/* Formularios */
+form {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form select:focus {
+    border-color: #4f46e5;
+    outline: none;
+}
+
+/* Botones generales */
+input[type="submit"] {
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Hover general */
+input[type="submit"]:hover {
+    background-color: #6366f1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Eliminar - Rojo */
+input[type="submit"][value="Eliminar"] {
+    background-color: #e11d48;
+}
+input[type="submit"][value="Eliminar"]:hover {
+    background-color: #f43f5e;
+}
+
+/* Modificar - Verde */
+input[type="submit"][value="Modificar"] {
+    background-color: #059669;
+}
+input[type="submit"][value="Modificar"]:hover {
+    background-color: #10b981;
+}
+
+/* Reset - Gris */
+input[type="submit"][value="Reset"] {
+    background-color: #6b7280;
+}
+input[type="submit"][value="Reset"]:hover {
+    background-color: #9ca3af;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+table th {
+    background-color: #4f46e5;
+    color: #fff;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #f1f5f9;
+}

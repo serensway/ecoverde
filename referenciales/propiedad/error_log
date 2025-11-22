@@ -1,0 +1,2 @@
+[18-Nov-2025 11:38:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/promo02/public_html/angeles/referenciales/propiedad/index.php on line 65
+[18-Nov-2025 11:38:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/promo02/public_html/angeles/referenciales/propiedad/index.php on line 68
