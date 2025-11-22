@@ -29,10 +29,10 @@ session_start();
   <div class="sub-menu-nav">
     <button class="nav-btn">Movimientos</button>
     <div class="sub-menu-alt">
-      <a href="movimientos/registrarventa/index.php">COBRO</a>
-      <a href="movimientos/">COMPRA</a>
-      <a href="movimientos/">PAGO</a>
-      <a href="movimientos/">VENTA</a>
+      <a href="movimientos/registrarventa/index.php">Registrar Venta</a>
+      <a href="movimientos/registrarcobro/index.php">Registrar Cobro</a>
+      <a href="movimientos/">Registrar Compra</a>
+      <a href="movimientos/">Registrar Pago</a>
     </div>
   </div> 
   <div class="sub-menu-nav">

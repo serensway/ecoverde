@@ -126,4 +126,12 @@ document.addEventListener('keydown', (e) => {
 
 updateCounter();
 
+// Desactivar contador de árbol y quitar botón de simulación
+(function disableTreeCounter(){
+  const demoBtn = document.getElementById('demoInc');
+  if (demoBtn) demoBtn.remove();
+  // Si hay funciones que actualizan el contador, las anulamos (no-op)
+  window.updateTreeCounter = function(){};
+})();
+
 console.log('Eco Verde YvyPorã - Script cargado correctamente');

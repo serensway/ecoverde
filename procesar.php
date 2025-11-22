@@ -1,27 +1,30 @@
-<?php    //inicio del archivo PHP
-session_start(); 
-	include("conexion.php");  //agregar un archivo
-	$usuario=$_POST["usu"]; //recibir variables del formulario anterior
-    $clave=$_POST["cla"];  //recibir variables del formulario anterior
-	
-	$query="SELECT * FROM empleado 
-            WHERE emp_usuario='$usuario' 
-            AND emp_clave='$clave'"; //
+<?php
+session_start();
+require_once 'conexion.php'; // espera $PDO
 
-	$res = mysqli_query($conexion,$query); 	//resultset
+// recibir variables del formulario anterior (asegura existencia)
+$usuario = isset($_POST["usu"]) ? trim($_POST["usu"]) : '';
+$clave   = isset($_POST["cla"]) ? trim($_POST["cla"]) : '';
 
-	$ban=0;
-	while ($fila = mysqli_fetch_assoc($res)) {
-		$nombre=$fila["emp_nombres"];
-		$codigo=$fila["emp_codigo"];
-	    $ban=1;
-		$_SESSION["usuarioActivo"]=$nombre;
-		$_SESSION["codigo"]=$codigo;
-	}
+// Verificar $PDO
+if (!isset($PDO) || !($PDO instanceof PDO)) {
+    die('Error: la conexión a la base de datos no existe. Verifique conexion.php');
+}
 
-	if($ban==1){
-	    header('Location: menu.php'); //redireccion
-	} else {
-	    header('Location: datos.php');
-	}
-?>
+try {
+    $stmt = $PDO->prepare("SELECT emp_nombres, emp_codigo FROM empleado WHERE emp_usuario = :usu AND emp_clave = :cla LIMIT 1");
+    $stmt->execute([':usu' => $usuario, ':cla' => $clave]);
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if ($row) {
+        $_SESSION["usuarioActivo"] = $row['emp_nombres'];
+        $_SESSION["codigo"] = $row['emp_codigo'];
+        header('Location: menu.php');
+        exit;
+    } else {
+        header('Location: datos.php');
+        exit;
+    }
+} catch (PDOException $e) {
+    die('DB error: ' . $e->getMessage());
+}

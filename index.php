@@ -1,3 +1,16 @@
+<?php
+// sección "árboles plantados" — reemplazar aquí
+require_once 'conexion.php'; // debe definir $conexion (mysqli)
+
+$count = 0;
+if (isset($conexion) && $conexion instanceof mysqli) {
+    if ($res = $conexion->query("SELECT COUNT(*) AS total FROM factura")) {
+        $row = $res->fetch_assoc();
+        $count = (int) ($row['total'] ?? 0);
+        $res->free();
+    }
+}
+?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -66,12 +79,11 @@
     </div>
   </aside>
 
-  <!-- CONTADOR ANIMADO -->
+  <!-- CONTADOR (muestra valor desde DB) -->
   <section class="counter-section" aria-labelledby="counterTitle">
     <div class="counter-card">
       <h3 id="counterTitle">Árboles plantados</h3>
-      <div id="treeCounter" class="counter" aria-live="polite">0</div>
-     <button id="demoInc" class="btn small outline" title="Simular venta (solo demo)">Simular +</button>
+      <div id="treeCounter" class="counter" aria-live="polite"><?php echo number_format($count); ?></div>
     </div>
   </section>
 
